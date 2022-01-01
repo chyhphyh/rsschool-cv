@@ -15,6 +15,7 @@
 + CSS
 + JavaSkript (Basic)
 + Git
++ SQL (PostgreeSQL)
 + Windows OS, Linux (Mint)
 
 
