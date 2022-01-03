@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="./normalize.css" rel="stylesheet">
     <link href="./style.css" rel="stylesheet"/>     
     <title>cv</title>
 </head>
@@ -28,8 +29,11 @@
         </div>
     </header>
     <main class="main">
-        <div class="conteiner">
-            <section class="section" id="profile">
+        <div class="main-container">
+            <section class="section-profile" id="profile">
+                <p>
+                    <img src="./assets/img/images.png" alt="Photo">
+                </p>
                 <h1 class="section-title">Sergey Fedotov</h1>
                 <p>Frontend developer</p>
             </section>
@@ -43,7 +47,7 @@
             </section>
             <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
-                <p>I am 32 years old. I am interested in chess and judo.</p>
+                <p>I am interested in development and data analysis. I want to become a full stack developer.</p>
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
@@ -58,9 +62,14 @@
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
-                <p>
+                <p class="section-title-p">
                     <pre>
-
+                        let a = 3;
+                        let b = 4;
+                        
+                        console.log(
+                            a + b;
+                        )
                     </pre>
                 </p>
             </section>
@@ -92,8 +101,13 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="conteiner">
-            <a href="https://github.com/chyhphyh">GitHab</a>
+        <div class="footer-conteiner">
+            <p>
+                <a href="https://github.com/chyhphyh"><img class="image" src="./assets/img/githab.png" alt="GitHab"></a>
+            </p>
+            <p>
+                <a href="https://rs.school/js/"><img class="image" src="./assets/img/rs_school_js.svg" alt="RS-School"></a>
+            </p>
             <img href="./assets/img/rs_school_js.svg href="https://rs.school/js/">
         </div>
     </footer>
