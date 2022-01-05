@@ -2,6 +2,7 @@
 
 
 # Sergey Fedotov
+## Frontend developer
 
 
 ## My contact info
@@ -9,6 +10,8 @@
 + **GitHab:** chyhphyh
 + **Email:** chyhphyh@yandex.ru
 
+# Summary
+I am interested in development and data analysis. I want to become a full stack developer.
 
 ## Skills
 + HTML
@@ -18,6 +21,17 @@
 + SQL (PostgreeSQL)
 + Windows OS, Linux (Mint)
 
+## Code
+let a = 3;
+let b = 4;
+                        
+console.log(
+    a + b;
+)
 
-## Lang
-**English:** A2
+## Education
+St. Petersburg Basic College of Pharmacy
+
+## Languages
++ **Russian:** native
++ **English:** A2
